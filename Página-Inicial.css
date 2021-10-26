@@ -1,0 +1,55 @@
+.u-section-1 {
+  background-image: url("images/cataloina_porto_doble_balcon2_2.webp");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 100vh;
+}
+
+.u-section-1 .u-group-1 {
+  width: 404px;
+  min-height: 66px;
+  margin: 18px auto 0;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.u-section-1 .u-text-1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-size: 1.5rem;
+  margin: 10px 0 0;
+}
+
+.u-section-1 .u-image-1 {
+  width: 570px;
+  height: 108px;
+  margin: 495px auto 18px;
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    width: auto;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 103px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-group-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 65px;
+  }
+}
